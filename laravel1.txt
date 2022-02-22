@@ -1,0 +1,44 @@
+laravel framework:
+-php born in 1994
+-popularity in 2000-2004
+-to create a structure, php frameworks came in action near/after2004
+-and laravel came in june 2011
+-mvc - model view controller wasnt there in v1
+-taylor orlwell - laravel developer
+-resource abundant and security better, hence famous
+-laravel is combination of 3 frameworks -symphony, cake php and
+
+.
+.
+.
+laravel can be installed in 3 ways - installer, composer, docker
+	1.composer global require laravel/installer --> ekbar run korlei done
+	2.composer create project
+
+composer create-project laravel/laravel first_project
+uporer ettuk pre defined	eta amader project
+composer is php's dependenncy
+composer github theke ane
+laravel/laravel is username/reponame
+
+---version bole na dile default version the niye nibe
+else, composer create project laravel/laravel first_project "version"
+
+--laravel built-in development server-artisan -------- php artisan serve   ---- modified by laravel
+		would give -- 127.0.0.1:8000
+				IP	port
+
+---------------------------------------------------------------------------------------------------
+laracast is the stack overflow of laravel
+blade is a templating engine
+.php- regular php file
+.blade.php- templating file which is later converted to php
+difference: blade e php block lagena
+---------------------------------------------------------------------------------------------------
+project structure:
+
+app, vendor, composer.json - in root ager moto
+app -?console (all hardware related work) ->kernel.php
+	exception: 404, 403 all error's view page here
+		http: mvc --> controler ||middleware for security purpose  -http er request register kore kernal.php
+---------------------------------------------------------------------------------------------------
